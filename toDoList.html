@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <section class="s-todo-list">
+        <div class="container">
+            <div class="title">
+                <h1>WORK TO-DOS</h1>
+            </div>
+            <div class="sub-title">
+                <p class="first">Enter text into the input field to add items to your list.</p>
+                <p class="second">Click the item to mark it as complete.</p>
+                <p class="third">Click the "X" to remove the item from your list.</p>
+            </div>
+
+            <div class="body">
+                <div class="add-list">
+                    <input id="userInput" type="text" placeholder="New item..." maxlength="27">
+				    <button id="enter"><i class="fas fa-pencil-alt"></i></button>
+                </div>
+                <div class="list">
+                    <div class="listItems">
+                        <ul>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="app.js"></script>
+</body>
+</html>
